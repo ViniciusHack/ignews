@@ -8,7 +8,7 @@ export default NextAuth({
   providers: [
       GithubProvider({
           clientId: process.env.GITHUB_CLIENT_ID,
-          clientSecret: process.env.GITHUB_CLIENT_,
+          clientSecret: process.env.GITHUB_CLIENT_SECRET,
           authorization: {
               params: {
                   scope: 'read:user, user:email'
@@ -17,21 +17,19 @@ export default NextAuth({
       }),
   ],
   callbacks: {
-    async signIn({ user, account, profile, email, credentials }) {
+    async signIn({ user, account, profile, email: signInEmail, credentials }) {
+      const { email } = user;
+                
       try {
-        const { email } = user;
-                  
         await fauna.query(
           q.Create(
             q.Collection('users'),
             { data: {email}}
           )
         )
-      
         return true;
-      } catch(err) {
-        console.log(err)
-        return false
+      } catch {
+        return false;
       }
   },
 }})
