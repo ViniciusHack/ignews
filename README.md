@@ -1,4 +1,4 @@
-# ignews
+# ![logo](https://user-images.githubusercontent.com/60555584/162859494-22176cc7-c4c8-4fc2-b01b-eee6a5e7b9f4.svg)
 ignews is an web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
 With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Generator), next-auth.
 
