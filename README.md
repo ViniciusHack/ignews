@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ![logo](https://user-images.githubusercontent.com/60555584/162859494-22176cc7-c4c8-4fc2-b01b-eee6a5e7b9f4.svg)
+ignews is an web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
+With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Generator), next-auth.
 
-## Getting Started
 
-First, run the development server:
+![delete](https://user-images.githubusercontent.com/60555584/161351457-7c3461ee-d979-48f8-bead-f340a5f42bea.gif)
+![delete2](https://user-images.githubusercontent.com/60555584/161352164-1ac86f5c-289d-4649-b3aa-ec5da634b447.gif)
+
+
+## 🔨 Features
+- Database - FaunaDB
+- List prismic posts
+- Get post info
+- Subscribe / Payment - Stripe
+- Post preview when you aren't subscribed
+- GitHub authentication - next-auth
+
+
+## ✔️ Getting Started
 
 ```bash
+git clone https://github.com/ViniciusHack/ignews.git
+
+cd ignews
+
+npm install
+# or
+yarn
+
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+That will start the development mode of the app. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔧 Technologies
+- Typescript
+- NextJS
+- Sass
+- FaunaDB
+- Prismic CMS
+- Stripe
+- next-auth
