@@ -12,7 +12,7 @@ export function SubscribeButton({priceId}: SubscribeButtonProps) {
     const {data: session} = useSession();
     const router = useRouter()
 
-    async function handleSubscritbe() {
+    async function handleSubscribe() {
         if(!session) {
             signIn
             return;
@@ -40,7 +40,7 @@ export function SubscribeButton({priceId}: SubscribeButtonProps) {
         <button 
         type="button"
         className={styles.subscribeButton}
-        onClick={handleSubscritbe}
+        onClick={handleSubscribe}
         >
             Subscribe Now
         </button>
