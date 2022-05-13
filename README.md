@@ -1,5 +1,35 @@
-# ![logo](https://user-images.githubusercontent.com/60555584/162859494-22176cc7-c4c8-4fc2-b01b-eee6a5e7b9f4.svg)
-ignews is an web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
+<h1 align="center">
+	<img alt="Logo" src="https://user-images.githubusercontent.com/60555584/162859494-22176cc7-c4c8-4fc2-b01b-eee6a5e7b9f4.svg" width="200px" />
+</h1>
+
+<h3 align="center">
+  dashgo
+</h3>
+
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ViniciusHack/ignews">
+
+  <a href="https://www.linkedin.com/in/ViniciusHack/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Vinícius%20Hack-gree">
+  </a>
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ViniciusHack/ignews">
+  
+  <a href="https://github.com/ViniciusHack/upfi/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ViniciusHack/ignews">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>
+</p>
+
+
+## 👨🏻‍💻 About the project
+**ignews** is an web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
 With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Generator), next-auth.
 
 
@@ -9,9 +39,9 @@ With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Gen
 
 ## 🔨 Features
 - Database - FaunaDB
-- List prismic posts
+- Prismic post listing
 - Get post info
-- Subscribe / Payment - Stripe
+- Payment - Stripe
 - Post preview when you aren't subscribed
 - GitHub authentication - next-auth
 
@@ -19,21 +49,19 @@ With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Gen
 ## ✔️ Getting Started
 
 ```bash
-git clone https://github.com/ViniciusHack/ignews.git
+# Clone the project and access the folder
+$ git clone https://github.com/ViniciusHack/dashgo/ && cd dashgo
 
-cd ignews
-
-npm install
+# Install the dependencies
+$ npm install
 # or
-yarn
+$ yarn
 
-npm run dev
+# Start the client
+$ npm run dev
 # or
-yarn dev
+$ yarn dev
 ```
-
-That will start the development mode of the app. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
 
 ## 🔧 Technologies
 - Typescript
