@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  dashgo
+  ignews
 </h3>
 
 <p align="center">
@@ -29,7 +29,7 @@
 
 
 ## 👨🏻‍💻 About the project
-**ignews** is an web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
+**ignews** is a web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
 With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Generator), next-auth.
 
 
@@ -45,12 +45,16 @@ With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Gen
 - Post preview when you aren't subscribed
 - GitHub authentication - next-auth
 
+##  💻 Getting started
+### Requirements
 
-## ✔️ Getting Started
+- <a href="https://nodejs.org/en/">NodeJS</a>
+- <a href="https://classic.yarnpkg.com/lang/en/docs/install/">yarn</a> (optional)
 
+**Follow the steps below**
 ```bash
 # Clone the project and access the folder
-$ git clone https://github.com/ViniciusHack/dashgo/ && cd dashgo
+$ git clone https://github.com/ViniciusHack/ignews/ && cd ignews
 
 # Install the dependencies
 $ npm install
