@@ -15,7 +15,7 @@
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ViniciusHack/ignews">
   
-  <a href="https://github.com/ViniciusHack/upfi/commits/master">
+  <a href="https://github.com/ViniciusHack/ignews/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ViniciusHack/ignews">
   </a>
 </p>
