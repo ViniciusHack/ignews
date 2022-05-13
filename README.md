@@ -71,3 +71,7 @@ $ yarn dev
 - Prismic CMS
 - Stripe
 - next-auth
+
+---
+
+Made with 💜 &nbsp;by Vinícius Hack 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/viniciushack/)
