@@ -49,7 +49,7 @@ describe('Posts page', () => {
         props: {
           posts: [{
             slug: 'my-new-post',
-            amount: 'My new post',
+            title: 'My New Post',
             excerpt: 'Post excerpt',
             updatedAt: '01 de abril de 2021'
           }]
