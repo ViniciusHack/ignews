@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo" src="https://user-images.githubusercontent.com/60555584/162859494-22176cc7-c4c8-4fc2-b01b-eee6a5e7b9f4.svg" width="200px" />
+	<a href="https://ignews-viniciushack.vercel.app/"><img alt="Logo" src="https://user-images.githubusercontent.com/60555584/162859494-22176cc7-c4c8-4fc2-b01b-eee6a5e7b9f4.svg" width="200px" /></a>
 </h1>
 
 <h3 align="center">
@@ -29,7 +29,7 @@
 
 
 ## 👨🏻‍💻 About the project
-**ignews** is a web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
+<a href="https://ignews-viniciushack.vercel.app/">**ignews**</a> is a web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
 With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Generator), next-auth.
 
 
