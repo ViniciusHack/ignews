@@ -30,7 +30,7 @@
 
 ## 👨🏻‍💻 About the project
 <a href="https://ignews-viniciushack.vercel.app/">**ignews**</a> is a web blog using Next.js with css modules, stripe as payment api, FaunaDB as database and Prismic as CMS (to create posts).
-With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Generator), next-auth.
+With Next.js, we use api routes, SSR(Server-side Rendering), SSG(Static Site Generator), next-auth. We made a unit test for each component and page with Jest and Testing Library
 
 
 ![delete](https://user-images.githubusercontent.com/60555584/161351457-7c3461ee-d979-48f8-bead-f340a5f42bea.gif)
@@ -75,7 +75,8 @@ $ yarn dev
 - Prismic CMS
 - Stripe
 - next-auth
-
+- Jest
+- Testing Library
 ---
 
 Made with 💜 &nbsp;by Vinícius Hack 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/viniciushack/)
